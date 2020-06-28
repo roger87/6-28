@@ -14,7 +14,9 @@ $(document).ready(function () {
     });
 
 
-
+    if(windowTop > top) {
+        console.log("開始執行動畫...")
+    }
 
 
 });
