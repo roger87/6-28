@@ -1,6 +1,20 @@
 $(document).ready(function () {
 
-    var offset = $("test").offset();
-    var top = offset.top;
-    var left = offset.left;
+    $(window).scroll(function () {
+        
+        var offset = $("#test").offset();
+        var top = offset.top;
+        var left = offset.left;
+        
+        console.log("元素上方:"+ top);
+
+        var windowTop =  $(window).scrollTop();
+
+        console.log("視窗上方:"+ windowTop);
+    });
+
+
+
+
+
 });
