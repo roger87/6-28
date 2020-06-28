@@ -17,7 +17,7 @@ $(document).ready(function () {
            },{
                duration: 2000,
                step: (now) => {
-                   $("#test").text(now);
+                   $("#test").text(Math.floor(now));
                }
            })
         }
