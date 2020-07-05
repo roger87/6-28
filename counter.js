@@ -11,11 +11,20 @@ $(document).ready(function () {
         var windowTop =  $(window).scrollTop();
 
         // console.log("視窗上方:"+ windowTop);
-        if (windowTop > top) {
+
+        var number = $("#test").attr("data-counter-number");
+        var time = $("#test").attr("data-counter-time");
+        var offset = $("#test").attr("data-counter-offset");
+
+        // console.log("數字" + number);
+        // console.log("時間" + time);
+        // console.log("位移" + offset);
+
+        if (windowTop > top - offset) {
            $("#test").animate({
-               num : 555
+               num : number
            },{
-               duration: 2000,
+               duration: parseInt(time),
                step: (now) => {
                    $("#test").text(Math.floor(now));
                }
