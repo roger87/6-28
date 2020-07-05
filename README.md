@@ -10,8 +10,7 @@ https://github.com/roger87/6-28/blob/master/counter.js
 
 3. 參數說明
 
-...
-
+```
 data-counter-number="數字"
 data-counter-time="時間"
 data-counter-offset="位移 數字越大越早執行"
