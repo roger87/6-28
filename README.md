@@ -3,11 +3,13 @@
 展示網頁：https://roger87.github.io/6-28/
 
 1. 請先 CDN jQuery
-
+```
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+```
 2. 計數器 CDN
-
-https://github.com/roger87/6-28/blob/master/counter.js
-
+```
+<script src="https://roger87.github.io/6-28/counter.js"></script>
+```
 3. 參數說明
 
 ```
